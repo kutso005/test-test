@@ -1,0 +1,227 @@
+.wrap {
+  max-width: 991px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.j-between {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#center {
+  text-align: center;
+}
+
+.plus {
+  width: 40px;
+  height: 40px;
+  background: var(--bg-green);
+  border-radius: 50%;
+  cursor: pointer;
+  @media screen and (max-width: 860px) {
+    width: 25px;
+    height: 25px;
+  }
+  svg {
+    font-size: 24px;
+    color: var(--bg-white);
+    @media screen and (max-width: 860px) {
+      font-size: 15px;
+    }
+  }
+}
+
+.companyProjects {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-gray);
+  padding: 70px 0;
+  @media screen and (max-width: 860px) {
+    padding: 45px 0;
+  }
+  .projects {
+    .btns {
+      padding: 70px 0;
+      gap: 20px;
+      @media screen and (max-width: 860px) {
+        padding-top: 35px;
+        gap: 5px;
+      }
+      button {
+        padding: 0 30px !important;
+      }
+    }
+  }
+}
+
+.img {
+  max-width: 618px;
+  width: 100%;
+  height: 420px;
+  margin: 0 auto !important;
+  object-fit: cover;
+  border-radius: 20px;
+  @media screen and (max-width: 860px) {
+    max-width: 265px;
+    width: 100%;
+    height: 182px;
+  }
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 71px !important;
+  height: 25px !important;
+  background: var(--bg-white) !important;
+  border-radius: 25px !important;
+  @media screen and (max-width: 860px) {
+    width: 42.6px !important;
+    height: 15px !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50% !important;
+  background: var(--bg-swiper-grey) !important;
+  @media screen and (max-width: 860px) {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+
+.careers {
+  width: 100%;
+  height: 100%;
+  padding: 70px 0;
+  background-color: var(--bg-black);
+
+  @media screen and (max-width: 860px) {
+    padding: 43px 0 47px;
+  }
+  .career-around {
+    padding: 61px 0 131px;
+    gap: 10px;
+    width: 95%;
+
+    @media screen and (max-width: 1100px) {
+      display: grid;
+      gap: 30px;
+    }
+
+    img {
+      @media screen and (max-width: 1100px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, -81px) !important;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, -81px) !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: url("../image//arrowRight.svg") !important;
+  @media screen and (max-width: 1000px) {
+    display: none !important;
+  }
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: url("../image/arrowLeft.svg") !important;
+  @media screen and (max-width: 1000px) {
+    display: none !important;
+  }
+}
+
+.leader {
+  padding-bottom: 45px;
+  gap: 3px;
+}
+
+.borderGreen {
+  width: 100%;
+  height: 16px;
+  background: url("../image/borderGreen.svg");
+  position: absolute;
+  bottom: 10px;
+  z-index: -22;
+  @media screen and (max-width: 1100px) {
+    bottom: 300px;
+    @media screen and (max-width: 500px) {
+      bottom: 400px;
+    }
+  }
+}
+
+.career {
+  width: 98%;
+  @media screen and (max-width: 1100px) {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+
+.careerImage {
+  @media screen and (max-width: 1100px) {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+.footer-start {
+  gap: 30px;
+  @media screen and (max-width: 860px) {
+    display: block;
+  }
+}
+
+.contacts {
+  @media screen and (max-width: 860px) {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
